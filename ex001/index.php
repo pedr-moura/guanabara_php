@@ -9,7 +9,7 @@
     <h1>Servidor</h1>
 
     <?php 
-        phpinfo();
+        print "$data";
     ?>
 </body>
 </html>
