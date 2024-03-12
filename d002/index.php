@@ -16,7 +16,7 @@
 
         <br>
         <?php 
-        $aleatorio = rand(1,100);
+        $aleatorio = mt_rand(1,100);
         echo "O numero gerado é <b>$aleatorio</b>";
         ?>
 <br><br>

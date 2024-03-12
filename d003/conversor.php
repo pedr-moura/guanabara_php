@@ -27,9 +27,9 @@
             //
 
         $real = str_replace(',', '.', $_GET["real"]);
-        $dolar = number_format(($real / $cotDolar),2);
-        $euro = number_format(($real / $cotEuro),2);
-        $won = number_format(($real / $cotWon),2);
+        $dolar = number_format(($real / $cotDolar),2, ",", ".");
+        $euro = number_format(($real / $cotEuro),2, ",", ".");
+        $won = number_format(($real / $cotWon),2, ",", ".");
 
 
 
