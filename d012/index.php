@@ -14,7 +14,7 @@
     $n1 = $_POST['n1'] ?? 0;
     ?>
     <section>
-        Calcular idade...
+        Calcular tempo...
     <form action="<?php $_SERVER['PHP_SELF']?>" method="post">
 
     <label for="n1">Quantos segundos?</label>
